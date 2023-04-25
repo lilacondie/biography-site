@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@400;700&display=swap');
+@import url("https://use.typekit.net/bau0tus.css");
+/* * {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+} */
+h1 {
+    font-family: "modesto-condensed", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(166, 128, 67, 1);
+    font-size: 110px;
+}
+
+h2 {
+    font-family: "modesto-condensed", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(166, 128, 67, 1);
+    font-size: 65px;
+    margin: 0px;
+    padding: 0;
+}
+
+h3 {
+    font-family: "modesto-condensed", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:rgba(233, 238, 238, 1);
+    font-size: 65px; 
+    margin: 0;
+}
+
+h4 {
+    font-family: "modesto-condensed", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(166, 128, 67, 1);
+    font-size: 40px;
+    margin: 0px;
+    padding: 0;
+}
+
+p {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color:rgba(40, 49, 49, 1);
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+img {
+  display: block;
+}
+
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(images/header.jpg);
+    height: 95vh;
+    background-size: cover;
+    position: relative;
+}
+
+.header-logo {
+    font-family: "modesto-condensed", serif;
+    color: rgba(166, 128, 67, 1);
+    position: absolute;
+    bottom: -30px;
+    right: 40px;   
+}
+
+.header-caption {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: rgba(233, 238, 238, 1);
+    position: absolute;
+    bottom: 30px;
+    right: 5px;
+}
+
+.logo {
+    font-family: "modesto-condensed", serif;
+    color: rgba(166, 128, 67, 1);
+    font-size: 67px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(192, 201, 201, 1);
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+  nav li {
+    display: inline-block;
+}
+
+  nav a {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    text-decoration: none;
+    color: rgba(40, 49, 49, 1);
+    padding: 11px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.who-is {
+  display: flex;
+  margin-top: 0px;
+  padding: 2em;
+  gap: 2em;
+  background-color: rgba(233, 238, 238, 1);
+
+}
+
+.who-is-photo {
+   flex: 2;
+}
+
+.who-is-photo img {
+    width: 100%;
+}
+
+.who-is-content {
+    flex: 3;
+    padding-top: 3em;
+}
+
+button {
+    padding: 10px 40px;
+    margin-top: 10px;
+    border-radius: 25px;
+    border: none;
+    background: rgba(192, 201, 201, 1);
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 16px;
+    color:rgba(40, 49, 49, 1);
+  }
+
+  button:hover {
+    background:rgba(166, 128, 67, 1);
+    color:rgba(233, 238, 238, 1);
+  }
+
+  .career-timeline-title {
+    background:rgba(166, 128, 67, 1);
+    padding-left: 2em;
+  }
+
+  .timeline-container {
+    background:rgba(192, 201, 201, 1);
+    padding: 2em;
+  }
+
+  .timeline-container-section {
+    display: flex;
+    margin-bottom: 2.5em;
+  }
+
+  .timeline-container-section > * {
+    flex: 1
+  }
+
+  .card-with-photo {
+    display: flex;
+  }
+
+  .formative-photo {
+   width: 100px;
+   flex: 1;
+   padding-right: 1em;
+  }
+
+  .formative-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .formative-years-card {
+    padding: 1em;
+    flex: 1;
+    /* width: 277px; */
+    background-color: rgba(233, 238, 238, 1);
+  }
+
+  .reverse {
+    flex-direction: row-reverse;
+  }
+
+  .breakout-photo img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+
+  .breakout-album-card {
+    flex: .5;
+    padding: 1em;
+    width: 324px;
+    background-color: rgba(233, 238, 238, 1);
+  }
+
+  .mellon-collie-photo img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .mellon-collie-card {
+    padding: 1em;
+    background-color: rgba(233, 238, 238, 1);
+    margin-bottom: 2.5em;
+  }
+
+  .adore-photo img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+
+  .adore-card {
+    flex:.6;
+    padding: 1em;
+    background-color: rgba(233, 238, 238, 1);
+  }
+
+  .end-of-era-photo img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+
+  .end-of-era-card {
+    flex: .5;
+    padding: 1em;
+    background-color: rgba(233, 238, 238, 1);
+  }
+
+  .return-photo img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+
+  .return-card {
+    flex: .5;
+    padding: 1em;
+    background-color: rgba(233, 238, 238, 1); 
+  }
+
+  .timeline-container-section > {
+    flex: 1;
+  }
+
+  .card-with-photo {
+    display: flex;
+  }
+
+  .reunion-photo {
+   width: 100px;
+   flex: 1;
+   padding-right: 1em;
+  }
+
+  .reunion-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .reunion-card {
+    padding: 1em;
+    flex: 1;
+    background-color: rgba(233, 238, 238, 1);
+  }
+
+  .present-day-photo img {
+    margin-top: 40px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .present-day-card {
+    padding: 1em;
+    background-color: rgba(233, 238, 238, 1);
+  }
+  
+
+
