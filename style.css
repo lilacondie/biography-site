@@ -43,6 +43,16 @@ h4 {
     padding: 0;
 }
 
+h5 {
+  font-family: "modesto-condensed", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(166, 128, 67, 1);
+  font-size: 130px;
+  margin: 0px;
+  padding: 0;
+}
+
 p {
     font-family: 'Fira Sans Condensed', sans-serif;
     color:rgba(40, 49, 49, 1);
@@ -160,6 +170,16 @@ button {
     padding: 2em;
   }
 
+  .formative-container-section {
+    display: flex;
+    gap: 1em;
+    margin-bottom: 2.5em;
+  }
+
+  .formative-container-section > * {
+    flex: 1
+  }
+
   .timeline-container-section {
     display: flex;
     margin-bottom: 2.5em;
@@ -176,7 +196,7 @@ button {
   .formative-photo {
    width: 100px;
    flex: 1;
-   padding-right: 1em;
+   /* padding-right: 1em; */
   }
 
   .formative-photo img {
@@ -256,8 +276,14 @@ button {
     background-color: rgba(233, 238, 238, 1); 
   }
 
-  .timeline-container-section > {
-    flex: 1;
+  .reunion-container-section {
+    display: flex;
+    gap: 1em;
+    margin-bottom: 2.5em;
+  }
+
+  .reunion-container-section > * {
+    flex: 1
   }
 
   .card-with-photo {
@@ -267,7 +293,6 @@ button {
   .reunion-photo {
    width: 100px;
    flex: 1;
-   padding-right: 1em;
   }
 
   .reunion-photo img {
@@ -278,7 +303,7 @@ button {
 
   .reunion-card {
     padding: 1em;
-    flex: 1;
+    flex: 2;
     background-color: rgba(233, 238, 238, 1);
   }
 
@@ -291,6 +316,32 @@ button {
   .present-day-card {
     padding: 1em;
     background-color: rgba(233, 238, 238, 1);
+  }
+
+  .footer {
+    background-color: rgba(192, 201, 201, 1);
+    margin-top: 5em;
+    padding: 2em;
+  }
+
+  .footer-links {
+    
+  }
+
+  links a {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    text-decoration: none;
+    color: rgba(40, 49, 49, 1);
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  links li {
+    list-style-type: none;
+  }
+
+  .footer-logo {
+    text-align: center;
   }
   
 
