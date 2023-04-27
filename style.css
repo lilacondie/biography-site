@@ -48,7 +48,7 @@ h5 {
   font-weight: 400;
   font-style: normal;
   color: rgba(166, 128, 67, 1);
-  font-size: 130px;
+  font-size: 140px;
   margin: 0px;
   padding: 0;
 }
@@ -321,12 +321,15 @@ button {
   .footer {
     background-color: rgba(192, 201, 201, 1);
     margin-top: 5em;
-    padding: 2em;
+    display: flex;
+    /* padding: 2em; */
   }
 
-  .footer-links {
-    
+  .billy-corgan-footer-title {
+    padding-top: 4.5em;
+    padding-left: 2em;
   }
+
 
   links a {
     font-family: 'Fira Sans Condensed', sans-serif;
@@ -338,11 +341,30 @@ button {
 
   links li {
     list-style-type: none;
+    padding: 0.1em;
+  }
+
+  .footer-content-left {
+    flex: 2;
   }
 
   .footer-logo {
-    text-align: center;
+    padding-top: 5.5em;
+    flex: 1.7;
   }
+
+  .copyright {
+    padding-left: 2em;
+    padding-top: 1.5em;
+  }
+
+  .footer-content-right {
+    flex: 1;
+    padding-top: 6em;
+  }
+
+  
+
   
 
 
