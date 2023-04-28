@@ -11,7 +11,7 @@ h1 {
     font-weight: 400;
     font-style: normal;
     color: rgba(166, 128, 67, 1);
-    font-size: 110px;
+    font-size: 105px;
 }
 
 h2 {
@@ -68,11 +68,12 @@ img {
 .container {
     width: 1140px;
     margin: 0 auto;
+    background-color: rgba(233, 238, 238, 1);
 }
 
 .header {
     background-image: url(images/header.jpg);
-    height: 95vh;
+    height: 91.5vh;
     background-size: cover;
     position: relative;
 }
@@ -81,7 +82,7 @@ img {
     font-family: "modesto-condensed", serif;
     color: rgba(166, 128, 67, 1);
     position: absolute;
-    bottom: -30px;
+    bottom: -20px;
     right: 40px;   
 }
 
@@ -89,8 +90,8 @@ img {
     font-family: 'Fira Sans Condensed', sans-serif;
     color: rgba(233, 238, 238, 1);
     position: absolute;
-    bottom: 30px;
-    right: 5px;
+    bottom: 40px;
+    right: 0px;
 }
 
 .logo {
@@ -298,6 +299,7 @@ button {
   .reunion-photo img {
     width: 100%;
     height: 100%;
+    /* height: 270px; */
     object-fit: cover;
   }
 
@@ -326,7 +328,7 @@ button {
   }
 
   .billy-corgan-footer-title {
-    padding-top: 4.5em;
+    padding-top: 3em;
     padding-left: 2em;
   }
 
@@ -350,7 +352,7 @@ button {
 
   .footer-logo {
     padding-top: 5.5em;
-    flex: 1.7;
+    flex: 1.8;
   }
 
   .copyright {
@@ -359,9 +361,24 @@ button {
   }
 
   .footer-content-right {
-    flex: 1;
+    flex: .8;
     padding-top: 6em;
+    padding-right: 1.9em;
+    font-weight: bold;
   }
+
+  input[type=email] {
+    padding-right: 5em;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 14px;
+    padding-right: 1.9em;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: rgba(233, 238, 238, 1);
+    border: none;
+  }
+
 
   
 
