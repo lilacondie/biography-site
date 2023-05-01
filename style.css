@@ -122,6 +122,10 @@ img {
     font-size: 14px;
 }
 
+nav a:hover {
+  color: rgba(166, 128, 67, 1);
+}
+
 
 .who-is {
   display: flex;
@@ -160,6 +164,7 @@ button {
     background:rgba(166, 128, 67, 1);
     color:rgba(233, 238, 238, 1);
   }
+
 
   .career-timeline-title {
     background:rgba(166, 128, 67, 1);
@@ -347,6 +352,15 @@ button {
     padding-left: 2em;
   }
 
+  /* a {
+    font-family: "modesto-condensed", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(166, 128, 67, 1);
+    font-size: 40px;
+    margin: 0px;
+    padding: 0;
+  } */
 
   links a {
     font-family: 'Fira Sans Condensed', sans-serif;
@@ -354,6 +368,9 @@ button {
     color: rgba(40, 49, 49, 1);
     font-weight: bold;
     font-size: 14px;
+  }
+  links a:hover {
+    color: rgba(166, 128, 67, 1);
   }
 
   links li {
