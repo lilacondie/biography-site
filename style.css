@@ -320,6 +320,21 @@ button {
     background-color: rgba(233, 238, 238, 1);
   }
 
+  .listen-to-music-container {
+    padding: 2em;
+    /* display: flex; */
+  }
+
+  .spotify {
+    padding-top: 2em;
+    width: 600px;
+  }
+
+  .apple-music {
+    padding-top: 2em;
+    width: 500px;
+  }
+
   .footer {
     background-color: rgba(192, 201, 201, 1);
     margin-top: 5em;
