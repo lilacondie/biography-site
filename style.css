@@ -352,7 +352,7 @@ button {
     padding-left: 2em;
   }
 
-  /* a {
+    /* a {
     font-family: "modesto-condensed", serif;
     font-weight: 400;
     font-style: normal;
@@ -382,9 +382,29 @@ button {
     flex: 2;
   }
 
+  wpc a {
+    font-family: "modesto-condensed", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(166, 128, 67, 1);
+    font-size: 140px;
+    margin: 0px;
+    padding: 0;
+    text-decoration: none;
+    transition-timing-function: ease-in;
+    transition: 2s;
+  }
+
+  wpc a:hover {
+    color: rgba(40, 49, 49, 1);
+    transition-timing-function: ease-out;
+    transition: 2s;
+  }
+
+
   .footer-logo {
     padding-top: 4.5em;
-    flex: 1.8;
+    flex: 1.9;
   }
 
   .copyright {
