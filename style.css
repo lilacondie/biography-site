@@ -64,7 +64,6 @@ img {
   display: block;
 }
 
-
 .container {
     width: 1140px;
     margin: 0 auto;
@@ -78,26 +77,49 @@ img {
     position: relative;
 }
 
-.header-logo {
-    font-family: "modesto-condensed", serif;
-    color: rgba(166, 128, 67, 1);
+.header-content {
     position: absolute;
     bottom: -20px;
-    right: 40px;   
+    right: 40px; 
 }
 
 .header-caption {
     font-family: 'Fira Sans Condensed', sans-serif;
     color: rgba(233, 238, 238, 1);
     position: absolute;
-    bottom: 40px;
+    bottom: 30px;
     right: 0px;
+}
+
+.header-logo {
+  font-family: "modesto-condensed", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(166, 128, 67, 1);
+  font-size: 105px;
+  transition-timing-function: ease-in;
+  transition: 2s;
+  padding-bottom: 0.55em;
+}
+
+.header-logo:hover {
+  color: rgba(192, 201, 201, 1);
+  transition-timing-function: ease-out;
+  transition: 2s;
 }
 
 .logo {
     font-family: "modesto-condensed", serif;
     color: rgba(166, 128, 67, 1);
     font-size: 67px;
+    transition-timing-function: ease-in;
+    transition: 2s;
+}
+
+.logo:hover {
+  color: rgba(40, 49, 49, 1);
+  transition-timing-function: ease-out;
+  transition: 2s;
 }
 
 .navigation {
@@ -120,10 +142,14 @@ img {
     padding: 11px;
     font-weight: bold;
     font-size: 14px;
+    transition-timing-function: ease-in;
+    transition: 0.5s;
 }
 
 nav a:hover {
   color: rgba(166, 128, 67, 1);
+    transition-timing-function: ease-out;
+    transition: 0.5s;
 }
 
 
@@ -158,11 +184,15 @@ button {
     font-family: 'Fira Sans Condensed', sans-serif;
     font-size: 16px;
     color:rgba(40, 49, 49, 1);
+    transition-timing-function: ease-in;
+    transition: 0.5s;
   }
 
   button:hover {
     background:rgba(166, 128, 67, 1);
     color:rgba(233, 238, 238, 1);
+    transition-timing-function: ease-out;
+    transition: 0.5s;
   }
 
 
@@ -202,7 +232,6 @@ button {
   .formative-photo {
    width: 100px;
    flex: 1;
-   /* padding-right: 1em; */
   }
 
   .formative-photo img {
@@ -214,7 +243,6 @@ button {
   .formative-years-card {
     padding: 1em;
     flex: 1;
-    /* width: 277px; */
     background-color: rgba(233, 238, 238, 1);
   }
 
@@ -343,23 +371,31 @@ button {
   .footer {
     background-color: rgba(192, 201, 201, 1);
     margin-top: 5em;
+    padding-top: 2em;
     display: flex;
-    /* padding: 2em; */
   }
 
   .billy-corgan-footer-title {
-    padding-top: 3em;
     padding-left: 2em;
   }
 
-    /* a {
+   /* billy a {
     font-family: "modesto-condensed", serif;
     font-weight: 400;
     font-style: normal;
     color: rgba(166, 128, 67, 1);
     font-size: 40px;
-    margin: 0px;
-    padding: 0;
+    padding-left: 1em;
+    padding-top: 3em;
+    text-decoration: none;
+    transition-timing-function: ease-in;
+    transition: 2s;
+  }
+
+  billy a:hover {
+    color: rgba(40, 49, 49, 1);
+    transition-timing-function: ease-out;
+    transition: 2s;
   } */
 
   links a {
@@ -368,9 +404,14 @@ button {
     color: rgba(40, 49, 49, 1);
     font-weight: bold;
     font-size: 14px;
+     transition-timing-function: ease-in;
+    transition: 0.5s;
   }
+
   links a:hover {
     color: rgba(166, 128, 67, 1);
+    transition-timing-function: ease-out;
+    transition: 0.5s;
   }
 
   links li {
@@ -401,9 +442,8 @@ button {
     transition: 2s;
   }
 
-
   .footer-logo {
-    padding-top: 4.5em;
+    padding-top: 2em;
     flex: 1.9;
   }
 
@@ -414,7 +454,7 @@ button {
 
   .footer-content-right {
     flex: .8;
-    padding-top: 6em;
+    padding-top: 3em;
     padding-right: 1.9em;
     font-weight: bold;
   }
@@ -430,6 +470,38 @@ button {
     background-color: rgba(233, 238, 238, 1);
     border: none;
   }
+
+  .social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+  icons li a {
+    display: inline-block;
+}
+
+  icons a {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    text-decoration: none;
+    color: rgba(40, 49, 49, 1);
+    padding: 11px;
+    font-weight: bold;
+    font-size: 14px;
+    transition-timing-function: ease-in;
+    transition: 0.5s;
+}
+
+icons a:hover {
+  color: rgba(166, 128, 67, 1);
+    transition-timing-function: ease-out;
+    transition: 0.5s;
+}
+
+
+
 
 
   
