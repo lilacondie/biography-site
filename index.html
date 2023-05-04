@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Biography Site</title>
 </head>
 <div class="container">
-  <div class="navigation">
+  <div class="navigation" id="home">
     <div class="logo">WPC</div>
         <nav>
           <ul>
@@ -145,13 +146,13 @@
 
 </div>
 
+<div class="listen-title">
+  <h3>Listen To The Smashing Pumpkins</h3>
+</div>
 <div class="listen-to-music">
   <div class="listen-to-music-container">
-  <div class="listen-title">
-  <h2>Listen To Billy And The Smashing Pumpkins</h2>
-  </div>
 <div class="spotify">
-  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/40Yq4vzPs9VNUrIBG5Jr2i?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/40Yq4vzPs9VNUrIBG5Jr2i?utm_source=generator" width="100%" height="450" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 </div>
 <div class="apple-music">
   <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/smashing-pumpkins-essentials/pl.78d7c5b1245448a1b3bd9a618ab62f6b"></iframe>
@@ -188,7 +189,7 @@
 
   <div class="footer-logo">
     <wpc>
-    <a href="#">WPC</a>
+    <a href="#home">WPC</a>
   </wpc>
   </div>
 
@@ -196,6 +197,13 @@
     <p>Receive updates about Billy and The Smashing Pumpkins</p>
     <div class="email">
       <input type="email" id="email" placeholder="Enter email">
+    </div>
+    <div class="social-icons">
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-tiktok"></i>
+      <i class="fa-brands fa-spotify"></i>
     </div>
     
 
