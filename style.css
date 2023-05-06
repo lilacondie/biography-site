@@ -101,16 +101,9 @@ img {
   font-style: normal;
   color: rgba(166, 128, 67, 1);
   font-size: 105px;
-  /* transition-timing-function: ease-in;
-  transition: 2s; */
   padding-bottom: 0.55em;
 }
 
-/* .header-logo:hover {
-  color: rgba(192, 201, 201, 1);
-  transition-timing-function: ease-out;
-  transition: 2s;
-} */
 
 .logo {
     font-family: "modesto-condensed", serif;
@@ -176,7 +169,7 @@ nav a:hover {
 
 .who-is-content {
     flex: 3;
-    padding-top: 3em;
+    padding-top: 4em;
 }
 
 button {
@@ -303,7 +296,7 @@ button {
     flex: .5;
     padding: 1em;
     background-color: rgba(233, 238, 238, 1);
-    padding-top: 2.5em;
+    padding-top: 2em;
   }
 
   .return-photo img {
@@ -362,47 +355,8 @@ button {
     background-color: rgba(233, 238, 238, 1);
   }
 
-  /* .listen-title {
-    background:rgba(166, 128, 67, 1);
-    padding-left: 2em;
-  } */
-
-  /* .listen-to-music {
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-top: 2em;
-  }
-
-  .listen-to-music-container {
-    display: flex;
-    gap: 1em;
-  }
-
-  iframe {
-    border-radius: 10px;
-  }
-
-  .spotify {
-    padding-top: 2em;
-    flex: 2;
-  }
-
-  .apple-music {
-    padding-top: 2em;
-    flex: 2;
-  }
-
-  .footer {
-    background-color: rgba(192, 201, 201, 1);
-    margin-top: 5em;
-    padding-top: 2em;
-    display: flex;
-  } */
-
   .listen-to-music {
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-top: 1em;
+    padding: 2em;
   }
 
   .listen-to-music-container {
@@ -412,31 +366,16 @@ button {
 
   .listen-content-left {
     flex: 1;
-    padding-top: 6em;
+    padding-top: 3em;
   }
 
   .listen-content-right {
     flex: 1.5;
 
   }
-
-  iframe {
-    border-radius: 10px;
-  }
-
-  .spotify {
-    padding-top: 1em;
-    /* flex: 2; */
-  }
-
-  /* .apple-music {
-    padding-top: 1px;
-  } */
-
   
   .footer {
     background-color: rgba(192, 201, 201, 1);
-    margin-top: 5em;
     padding-top: 2em;
     display: flex;
   }
@@ -529,7 +468,6 @@ button {
     color: rgba(40, 49, 49, 1);
     font-size: 1.5em;
     padding-top: 1em;
-    align-items: ;
   }
 
   input[type=email] {
