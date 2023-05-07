@@ -144,7 +144,7 @@ img {
 }
 
 nav a:hover {
-  color: rgba(166, 128, 67, 1);
+    color: rgba(166, 128, 67, 1);
     transition-timing-function: ease-out;
     transition: 0.5s;
 }
@@ -191,6 +191,27 @@ button {
     transition-timing-function: ease-out;
     transition: 0.5s;
   }
+
+  /* .button {
+    padding: 10px 40px;
+    margin-top: 10px;
+    border-radius: 25px;
+    border: none;
+    background: rgba(192, 201, 201, 1);
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color:rgba(40, 49, 49, 1);
+    transition-timing-function: ease-in;
+    transition: 0.5s;
+  }
+
+  .button:hover {
+    background:rgba(166, 128, 67, 1);
+    color:rgba(233, 238, 238, 1);
+    transition-timing-function: ease-out;
+    transition: 0.5s;
+  } */
 
 
   .career-timeline-title {
@@ -371,7 +392,6 @@ button {
 
   .listen-content-right {
     flex: 1.5;
-
   }
   
   .footer {
@@ -383,25 +403,6 @@ button {
   .billy-corgan-footer-title {
     padding-left: 2em;
   }
-
-   /* billy a {
-    font-family: "modesto-condensed", serif;
-    font-weight: 400;
-    font-style: normal;
-    color: rgba(166, 128, 67, 1);
-    font-size: 40px;
-    padding-left: 1em;
-    padding-top: 3em;
-    text-decoration: none;
-    transition-timing-function: ease-in;
-    transition: 2s;
-  }
-
-  billy a:hover {
-    color: rgba(40, 49, 49, 1);
-    transition-timing-function: ease-out;
-    transition: 2s;
-  } */
 
   links a {
     font-family: 'Fira Sans Condensed', sans-serif;
@@ -449,7 +450,7 @@ button {
 
   .footer-logo {
     padding-top: 2em;
-    flex: 1.9;
+    flex: 1.8;
   }
 
   .copyright {
@@ -458,23 +459,42 @@ button {
   }
 
   .footer-content-right {
-    flex: .8;
+    flex: 0.8;
     padding-top: 3em;
     padding-right: 1.9em;
     font-weight: bold;
   }
 
   .social-icons {
-    color: rgba(40, 49, 49, 1);
-    font-size: 1.5em;
-    padding-top: 1em;
+    justify-content: space-between;
+    align-items: center;
   }
 
+  .social-icons a {
+    color: rgba(40, 49, 49, 1);
+    font-size: 1.4em;
+    text-decoration: none;
+    transition-timing-function: ease-in;
+    transition: 0.5s;
+  }
+
+  .social-icons li {
+    display: inline-block;
+    padding-top: 2em;
+    margin-right: 1px;
+  }
+
+  .social-icons a:hover {
+    color: rgba(166, 128, 67, 1);
+    transition-timing-function: ease-out;
+    transition: 0.5s;
+  }
+
+
   input[type=email] {
-    padding-right: 5em;
     font-family: 'Fira Sans Condensed', sans-serif;
     font-size: 14px;
-    padding-right: 1.9em;
+    padding-right: 4.5em;
     padding-left: 0.5em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
